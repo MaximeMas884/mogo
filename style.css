@@ -1,0 +1,108 @@
+:root {
+    --accent-orange: #F38181;
+    --dark-text: #333333;
+    --light-text: #B6B6B6;
+    --accent-aqua: #95E1D3;
+}
+
+body {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Montserrat", serif;
+
+}
+
+.header-main {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--accent-orange);
+    text-decoration: none;
+}
+
+.header-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--accent-aqua);
+    text-decoration: none;
+}
+
+.services-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--dark-text);
+}
+
+.service-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--dark-text);
+    font-family: "Kaushan Script", cursive;
+}
+
+.services-item-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark-text);
+}
+
+.services-item-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--light-text);
+    line-height: 1.4;
+}
+
+.our-team-h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--dark-text);
+    font-family: "Kaushan Script", cursive;
+}
+
+.our-team-heading {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--dark-text);
+    
+}
+
+.our-team-desc {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--light-text);
+    line-height: 1.2;
+}
+
+.our-team-name {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark-text);
+    text-transform: uppercase;
+}
+
+.our-team-profession {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--light-text);
+   font-style: italic;
+
+}
+
+.footer-label {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--light-text);
+}
+
+.footer-template span {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--accent-orange);
+}
+
+.footer-template {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark-text);
+}
