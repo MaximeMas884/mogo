@@ -5,6 +5,15 @@
     --accent-aqua: #95E1D3;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 15px;
     font-weight: 400;
@@ -44,6 +53,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: var(--dark-text);
+    margin-top: 0;
 }
 
 .services-item-text {
@@ -64,7 +74,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: var(--dark-text);
-    
+
 }
 
 .our-team-desc {
@@ -85,7 +95,7 @@ body {
     font-size: 15px;
     font-weight: 300;
     color: var(--light-text);
-   font-style: italic;
+    font-style: italic;
 
 }
 
@@ -105,4 +115,129 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: var(--dark-text);
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 17px;
+    margin-bottom: 68px;
+}
+
+.header-nav {
+    gap: 55px;
+    display: flex;
+}
+
+.header-link {
+    color: var(--accent-aqua);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-link_active {
+    color: var(--accent-orange);
+}
+
+.services-wrap {
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.services-item {
+    width: 332px;
+
+}
+
+.our-team-wrap {
+    text-align: center;
+}
+
+.our-team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-team-person {
+    margin: 0px;
+    width: 380px;
+
+}
+
+.our-team-info {
+    text-align: center;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-label {
+    display: none;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-btn {
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    background-color: #95E1D3;
+    padding: 12px 38px;
+    color: white;
+    border: 0;
+}
+
+.footer-imput {
+    padding: 12px 10px;
+    border-color: var(--light-text);
+    border-width: 1px;
+    border-style: solid;
+    width: 230px;
+    border-right: none;
+}
+
+.footer {
+    border-top-color: #B6B6B6;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding: 10px 0;
+    margin-top: 80px;
+}
+
+.services-item {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.services-item-img {
+    padding-right: 19px;
+}
+
+.services-list {
+    margin-top: 65px;
+    margin-bottom: 100px;
+    column-gap: 70px;
+    row-gap: 100px;
+}
+
+.our-team-desc {
+    margin-top: 85px;
 }
