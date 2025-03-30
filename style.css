@@ -241,3 +241,25 @@ ul {
 .our-team-desc {
     margin-top: 85px;
 }
+
+.header-link_active:after {
+    content:'';
+    background-color: var(--accent-orange);
+    width: 100%;
+    display: block;
+    height: 2px;
+    margin-top: 5px;
+}
+
+.header-link:hover {
+    color: var(--accent-orange);
+}
+
+.our-team-picture:after {
+    content:'';
+    background-color: var(--accent-orange);
+    width: 100%;
+    display: block;
+    height: 100%;
+    margin-top: 5px;
+}
